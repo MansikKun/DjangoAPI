@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'paiset',
+     'drf_yasg',
     'rest_framework',  # 추가된 부분
-    'myapp',           # 추가된 부분
+    'api',           # 추가된 부분
 ]
 
 MIDDLEWARE = [
